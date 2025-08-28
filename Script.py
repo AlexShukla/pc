@@ -216,7 +216,18 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/cinbox">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/cinbox">[ CinBox ]</a> and @ipopcornbotnews</b>"""
+    CAPTION = """<b><a href="https://t.me/+N3wv6TtWkrEyOTVl">Premium Direct Movies Channel</a></b>
+
+🧭 <b>FILE :</b> @cinbox <a href="https://t.me/cinbox">{file_name}</a>  
+═══════════════════════  
+<b>⊱ ────── ⋅ʚ♡ɞ⋅ ────── ⊰</b>  
+➟ 🫧 <b>𝗝𝗼𝗶𝗻 𝗕𝗮𝗰𝗸𝘂𝗽🎟</b> @CinBox  
+➟ 🔉 <b>News📰</b> : @ipopcornbotNews  
+➟ 🌸 <b>Review / Watch Next 🎬🪸</b> : @MoviesTodayy  
+➥ 🌱 <b>Tutorials</b> : @How_to_verify_links  
+═══════════════════════
+<b><a href="https://t.me/+N3wv6TtWkrEyOTVl">Mᴜꜱᴛ Jᴏɪɴ Special Cʜᴀɴɴᴇʟ 🏴‍☠️</a></b>
+"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
