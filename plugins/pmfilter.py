@@ -1526,6 +1526,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton(' ʜᴇʟᴘ 📢', callback_data='help'),
                     InlineKeyboardButton(' ᴀʙᴏᴜᴛ 📖', callback_data='about')
                 ],[
+                                InlineKeyboardButton('「 ✦ ᴏᴡɴᴇʀ ✦ 」', url='http://t.me/chat2ownerbot')
+                ],[
+                    InlineKeyboardButton('✎ᝰ.ʜᴇʟᴘ', callback_data='help'), InlineKeyboardButton('ⓘ ᴀʙᴏᴜᴛ', callback_data='about')
+                ],[ 
+                    InlineKeyboardButton('〄 ᴄʜᴀɴɴᴇʟ 〄', url='https://t.me/CINBox'), 
+                    InlineKeyboardButton('〄 ɢʀᴏᴜᴘ 〄', url='https://t.me/iPopkornMovies_Group')
+                ],[
+                    InlineKeyboardButton('Backup', url='https://t.me/iPopcornbotNews')
+                ],[
+                    InlineKeyboardButton(' ʜᴇʟᴘ 📢', callback_data='help'),
+                    InlineKeyboardButton(' ᴀʙᴏᴜᴛ 📖', callback_data='about')
+                ],[
+                    InlineKeyboardButton('ᴛᴏᴘ sᴇᴀʀᴄʜɪɴɢ ⭐', callback_data="topsearch"),
+                    InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ 🎟', callback_data="premium_info"),
+                ]]
                     InlineKeyboardButton('ᴛᴏᴘ sᴇᴀʀᴄʜɪɴɢ ⭐', callback_data="topsearch"),
                      InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ 🎟', callback_data="premium_info"),
                 ]]
