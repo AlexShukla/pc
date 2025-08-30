@@ -1523,20 +1523,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('🔰 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔰', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton(' ʜᴇʟᴘ 📢', callback_data='help'),
-                    InlineKeyboardButton(' ᴀʙᴏᴜᴛ 📖', callback_data='about')
-                ],[
+                
                    InlineKeyboardButton('「 ✦ ᴏᴡɴᴇʀ ✦ 」', url='http://t.me/chat2ownerbot')
                 ],[
-                    InlineKeyboardButton('✎ᝰ.ʜᴇʟᴘ', callback_data='help'), InlineKeyboardButton('ⓘ ᴀʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('✎ᝰ.ʜᴇʟᴘ/सहायता', callback_data='help'), InlineKeyboardButton('ⓘ ᴀʙᴏᴜᴛ', callback_data='about')
                 ],[ 
                     InlineKeyboardButton('〄 ᴄʜᴀɴɴᴇʟ 〄', url='https://t.me/CINBox'), 
-                    InlineKeyboardButton('〄 ɢʀᴏᴜᴘ 〄', url='https://t.me/iPopkornMovies_Group')
+                    InlineKeyboardButton('〄 ɢʀᴏᴜᴘ 〄 (ग्रुप) ', url='https://t.me/iPopkornMovies_Group')
                 ],[
-                    InlineKeyboardButton('Backup', url='https://t.me/iPopcornbotNews')
+                    InlineKeyboardButton('Backup(बैकअप)', url='https://t.me/iPopcornbotNews')
 
                 ],[
-                    InlineKeyboardButton('ᴛᴏᴘ sᴇᴀʀᴄʜɪɴɢ ⭐', callback_data="topsearch"),
+                
                      InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ 🎟', callback_data="premium_info"),
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
