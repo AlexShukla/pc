@@ -1,5 +1,7 @@
 <h1 align="center"><b>🚩 ᴊᴀɪ ꜱʜʀɪ ʀᴀᴍ 🚩</b></h1>
 
+[deployto heroku](https://dashboard.heroku.com/new?template=https://github.com/AlexShukla/pc)
+
 <p align="center">
   <img src="https://github.com/DreamXBotz/Pics/blob/main/dreamxbotz.jpg" alt="DreamxBotz Logo">
 </p>
@@ -22,7 +24,7 @@
 
 Try the live bot here:
 
-[![Click Here](https://img.shields.io/badge/Demo%20Bot-Click%20Here-blue?style=flat&logo=telegram&labelColor=white)](https://t.me/Princess_V4_bot)
+[![)Click Here](https://img.shields.io/badge/Demo%20Bot-Click%20Here-blue?style=flat&logo=telegram&labelColor=white)](https://t.me/Princess_V4_bot)
 
 ---
 
