@@ -100,11 +100,11 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('🔰 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔰', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[                
-                   InlineKeyboardButton('「 ✦ ᴏᴡɴᴇʀ ✦ 」', url='http://t.me/chat2ownerbot')
+                   InlineKeyboardButton('「 ✦ ᴏᴡɴᴇʀ/ मालिक ✦ 」', url='http://t.me/chat2ownerbot')
                 ],[
-                    InlineKeyboardButton('✎ᝰ.ʜᴇʟᴘ/सहायता', callback_data='help'), InlineKeyboardButton('ⓘ ᴀʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('✎ᝰ.ʜᴇʟᴘ/सहायता', callback_data='help'), InlineKeyboardButton('ⓘ ᴀʙᴏᴜᴛ/मेरे बारे में, callback_data='about')
                 ],[ 
-                    InlineKeyboardButton('〄 ᴄʜᴀɴɴᴇʟ 〄', url='https://t.me/CINBox'), 
+                    InlineKeyboardButton('〄 ᴄʜᴀɴɴᴇʟ/ चैनल 〄', url='https://t.me/CINBox'), 
                     InlineKeyboardButton('〄 ɢʀᴏᴜᴘ 〄 (ग्रुप) ', url='https://t.me/iPopkornMovies_Group')
                 ],[
                     InlineKeyboardButton('Backup(बैकअप)', url='https://t.me/iPopcornbotNews')
@@ -138,26 +138,27 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('🔰 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔰', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[                
-                   InlineKeyboardButton('「 ✦ ᴏᴡɴᴇʀ ✦ 」', url='http://t.me/chat2ownerbot')
+                   InlineKeyboardButton('「 ✦ ᴏᴡɴᴇʀ/ मालिक ✦ 」', url='http://t.me/chat2ownerbot')
                 ],[
-                    InlineKeyboardButton('✎ᝰ.ʜᴇʟᴘ/सहायता', callback_data='help'), InlineKeyboardButton('ⓘ ᴀʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('✎ᝰ.ʜᴇʟᴘ/सहायता', callback_data='help'), InlineKeyboardButton('ⓘ ᴀʙᴏᴜᴛ/मेरे बारे में, callback_data='about')
                 ],[ 
-                    InlineKeyboardButton('〄 ᴄʜᴀɴɴᴇʟ 〄', url='https://t.me/CINBox'), 
+                    InlineKeyboardButton('〄 ᴄʜᴀɴɴᴇʟ/ चैनल 〄', url='https://t.me/CINBox'), 
                     InlineKeyboardButton('〄 ɢʀᴏᴜᴘ 〄 (ग्रुप) ', url='https://t.me/iPopkornMovies_Group')
                 ],[
                     InlineKeyboardButton('Backup(बैकअप)', url='https://t.me/iPopcornbotNews')
-                ],[                
+
+                ],[              
                      InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ 🎟', callback_data="premium_info"),
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
         curr_time = current_time.hour        
         if curr_time < 12:
-            gtxt = "ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ 🌞" 
+            gtxt = "ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ/ सुप्रभात 🌷🌞" 
         elif curr_time < 17:
-            gtxt = "ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ 🌓" 
+            gtxt = "ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ शुभ दोपहर 🌓" 
         elif curr_time < 21:
-            gtxt = "ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 🌘"
+            gtxt = "ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ शुभसंध्या 🌘"
         else:
             gtxt = "ɢᴏᴏᴅ ɴɪɢʜᴛ 🌑"
         m=await message.reply_text("⏳")
@@ -298,7 +299,7 @@ async def start(client, message):
                 buttons = [[
                     InlineKeyboardButton(text="♻️ ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴠᴇʀɪꜰʏ ♻️", url=verify)
                 ],[
-                    InlineKeyboardButton(text="⁉️ ʜᴏᴡ ᴛᴏ ᴠᴇʀɪꜰʏ ⁉️", url=howtodownload)
+                    InlineKeyboardButton(text="⁉️ ʜᴏᴡ ᴛᴏ ᴠᴇʀɪꜰʏ/ verify कैसे करें ⁉️", url=howtodownload)
                 ]]
                 reply_markup=InlineKeyboardMarkup(buttons)
                 if await db.user_verified(user_id): 
@@ -373,7 +374,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
                 filesarr.append(msg)
-            k = await client.send_message(chat_id=message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nᴛʜɪꜱ ᴍᴏᴠɪᴇ ꜰɪʟᴇ/ᴠɪᴅᴇᴏ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ <b><u><code>{get_time(DELETE_TIME)}</code></u> 🫥 <i></b>(ᴅᴜᴇ ᴛᴏ ᴄᴏᴘʏʀɪɢʜᴛ ɪꜱꜱᴜᴇꜱ)</i>.\n\n<b><i>ᴘʟᴇᴀꜱᴇ ꜰᴏʀᴡᴀʀᴅ ᴛʜɪꜱ ꜰɪʟᴇ ᴛᴏ ꜱᴏᴍᴇᴡʜᴇʀᴇ ᴇʟꜱᴇ ᴀɴᴅ ꜱᴛᴀʀᴛ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇʀᴇ</i></b>")
+            k = await client.send_message(chat_id=message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nᴛʜɪꜱ ᴍᴏᴠɪᴇ ꜰɪʟᴇ/ᴠɪᴅᴇᴏ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ <b><u><code>{get_time(DELETE_TIME)}</code></u> 🫥 <i></b>(ᴅᴜᴇ ᴛᴏ ᴄᴏᴘʏʀɪɢʜᴛ ɪꜱꜱᴜᴇꜱ)</i>.\n\n<b><i>ᴘʟᴇᴀꜱᴇ ꜰᴏʀᴡᴀʀᴅ ᴛʜɪꜱ ꜰɪʟᴇ ᴛᴏ ꜱᴏᴍᴇᴡʜᴇʀᴇ ᴇʟꜱᴇ ᴀɴᴅ ꜱᴛᴀʀᴛ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇʀᴇ copyright की वजह से File delete हो जाएगी! कृपया इसको saved मैसेज में बिना फॉरवर्ड टैग के साथ भेज दे  धन्यवाद </i></b>")
             await asyncio.sleep(DELETE_TIME)
             for x in filesarr:
                 await x.delete()
