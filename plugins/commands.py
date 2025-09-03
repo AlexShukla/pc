@@ -264,6 +264,12 @@ async def start(client, message):
                     f"👋 ʜᴇʟʟᴏ {message.from_user.mention}\n\n"
                     "🛑 ʏᴏᴜ ᴍᴜsᴛ ᴊᴏɪɴ ᴛʜᴇ ʀᴇǫᴜɪʀᴇᴅ ᴄʜᴀɴɴᴇʟs ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ.\n"
                     "👉 ᴊᴏɪɴ ᴀʟʟ ᴛʜᴇ ʙᴇʟᴏᴡ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ."
+                    "🔔 Rule"
+                    "✅ पहले सभी चैनल Join करो"
+                    "▶️ फिर • Try Again • दबाओ"
+                    "❌ अगर चैनल Leave किया तो Bot auto Ban कर देगा"
+                    "👉 @MoviesTodayy"
+                    
                 )
                 await message.reply_photo(
                     photo=photo,
